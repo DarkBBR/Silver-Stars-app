@@ -1,0 +1,20 @@
+.common_section{
+    background: linear-gradient(#00000080, #00000080), url("../assets/images/Banner/banner.png") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.common_section h1{
+    color: #fff;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px){
+    .common_section{
+        padding: 70pxp 0px;
+    }
+    .common_section h1{
+        font-size: 1.4rem;
+    }
+}
